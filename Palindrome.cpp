@@ -1,3 +1,17 @@
+/*Two friends, Prova and Prapti, communicate using secret messages.
+A message may contain spaces and upper/lowercase letters.
+To decode the secret, they follow two steps:
+Step 1:
+Recursively remove all spaces and convert the message to lowercase.
+Example:
+"N u R u N" → "nurun"
+Step 2:
+Recursively check if the cleaned message is a palindrome.
+Input:
+A single string containing spaces and mixed-case characters.
+Output:
+Print YES if the cleaned message is a palindrome, otherwise print NO*/
+
 #include <bits/stdc++.h>
 using namespace std;
 void removespace(vector <char> &a, int n){
